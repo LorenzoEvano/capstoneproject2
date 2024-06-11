@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Qwigley&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+#svg {
+    min-height: 100vh;
+    background: url('./svg/wave.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    margin:  550px;
+} 
+
+ul li{
+    
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Mate';
+}
+
+.profile-img {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    float: left;
+}
+
+/* body {
+	background: linear-gradient(-45deg, #89CFF3, #1F3C88, #5893D4, #CEDDEF);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+#introduction h1 p {
+font-family: 'Qwigley', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
